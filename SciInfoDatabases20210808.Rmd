@@ -1,0 +1,272 @@
+---
+title: "Resources for Retrieving Published Evidence"
+author: |
+  | T. Scott Murrell
+  | African Plant Nutrition Institute
+  |
+  | ORCiD: [0000-0002-8213-0815](https://orcid.org/0000-0002-8213-0815)
+  | email: s.murrell@apni.net
+date: "7/16/2021"
+output:
+  html_document:
+#    number_sections: true
+    toc: false
+#    toc_depth: 2
+sub-option: pandoc_args
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Open-Access Search Tools
+A list of databases that provide free access to their collections:
+
+* **[African Journals Online](https://www.ajol.info/index.php/ajol)**\
+([Search instructions](https://support.google.com/websearch/answer/134479?hl=en))\
+  **Subjects**: multiple disciplines, including agriculture\
+  **Scope**: 527 African-published, [peer-reviewed journals](https://www.ajol.info/index.php/ajol/browseBy/alpha?letter=all)), 270 of which are open-access\
+  **Downloading Results**: results can only be dowloaded individually\
+  *Note: Created by a South African non-profit organization*
+
+* **[Africa Portal](https://www.africaportal.org/)**\
+  **Subjects**: multiple disciplines\
+  **Scope**: 5000+ books, journals, and documents\
+  **Downloading Results**: results can only be dowloaded individually
+
+* **[AgEcon Search](https://ageconsearch.umn.edu/)**\
+([Search instructions](https://ageconsearch.umn.edu/docs/search-guide/?ln=en))\
+  **Subjects**: agricultural and applied economics, including: agribusiness, food security and supply, energy and natural resource economics, environmental economics, policy issues, international trade, and economic development. Content includes conference presentations, working papers, journal articles, government documents, and theses and dissertations.\
+  **Scope**: full text copies of 380+ scholarly research resources ([collections](https://ageconsearch.umn.edu/collections/))\
+  **Downloading Results**: free account registration is required. With a free account, individual references can be selected and placed into user-specified baskets. Once in a basket, titles and abstracts can be exported in a variety of formats. Another option not requiring use of baskets is to export results one page at time as Microsoft Excel files.\
+  *Note: Provided and maintained by the U.S. University of Minnesota*
+
+* **[Agricola](https://agricola.nal.usda.gov/)**\
+([Search instructions](https://agricola.nal.usda.gov/help/))\
+  **Subjects**: agriculture and associated disciplines, including: animal and veterinary sciences, entomology, plant sciences, forestry, aquaculture and fisheries, farming and farming systems, agricultural economics, extension and education, food and human nutrition, and earth and environmental sciences. It contains both peer-reviewed and non peer-reviewed publications\
+  **Scope**: 2070+ publications ([serials indexed](https://agricola.nal.usda.gov/jia/))\
+  **Downloading Results**: multiple results can be selected and exported in a variety of formats\
+  *Note: database produced by the U.S. National Agricultural Library*
+
+* **[AGRIS](https://agris.fao.org/agris-search/index)**\
+  **Subjects**: agriculture\
+  **Scope**: free access to millions of bibliographic records in 90 different languages ([data providers](http://www.fao.org/agris/data-providers))\
+  **Downloading Results**: within the advanced search, the top 500 results can be exported in a variety of formats. For searches returning more than 500 results, filter results using year ranges to subdivide results into groups of fewer than 500 records and export each group.\
+  *Note: Developed by the Food and Agriculture Organization of the United Nations (FAO) to provide support to its member countries to make their research outputs visible and accessible through the International System for Agricultural Science and Technology (AGRIS)*
+
+* **[CAIRN](https://www.cairn-int.info)**\
+([Search instructions](https://aide.cairn.info/article/113-comment-optimiser-mes-recherches-sur-cairn-info))\
+  **Subjects**: social sciences and humanities\
+  **Scope**: francophone publications spanning 500 journals and 10000 eBooks [(collections)](https://www.cairn.info/listerev.php)\
+  **Downloading Results**: results can only be dowloaded individually\
+  *Note: Open-access version has limited searching and no full text access*
+
+* **[CORE](https://core.ac.uk/)**\
+  **Subjects**: multiple disciplines\
+  **Scope**: over 207 million [open-access articles](https://core.ac.uk/data)\
+  **Downloading Results**: results can only be downloaded individually; optionally, [complete datasets](https://core.ac.uk/documentation/dataset) may be downloaded after registering\
+  *Note: A UK-based organization that uses data harvesting technologies to aggregate open access research worldwide and deliver unrestricted access*
+
+* **[DOAJ](https://doaj.org/)**\
+Search Instuctions: Use the filters to refine your search; a search query of more than one word will be treated as a phrase; use " " around the title to search full journal or article titles\
+  **Subjects**: science, technology, medicine, social sciences, arts and humanities\
+  **Scope**: 16630+ [peer-reviewed journals](https://doaj.org/search/journals?source=%7B%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%2C%22size%22%3A50%2C%22sort%22%3A%5B%7B%22created_date%22%3A%7B%22order%22%3A%22desc%22%7D%7D%5D%7D), 11720+ are [open access](https://doaj.org/search/journals?source=%7B%22query%22%3A%7B%22filtered%22%3A%7B%22filter%22%3A%7B%22bool%22%3A%7B%22must%22%3A%5B%7B%22term%22%3A%7B%22bibjson.apc.has_apc%22%3Afalse%7D%7D%2C%7B%22term%22%3A%7B%22bibjson.other_charges.has_other_charges%22%3Afalse%7D%7D%5D%7D%7D%2C%22query%22%3A%7B%22match_all%22%3A%7B%7D%7D%7D%7D%2C%22size%22%3A50%2C%22sort%22%3A%5B%7B%22created_date%22%3A%7B%22order%22%3A%22desc%22%7D%7D%5D%7D)\
+  **Downloading Results**: results can only be downloaded individually; optionally, [the entire database](https://doaj.org/docs/public-data-dump/) can be downloaded in csv or JSON format, or the site can be harvested using [OAI-PMH](https://doaj.org/docs/oai-pmh/). For more information, see the [Open Archives Initiative Protocol for Metadata Harvesting](http://www.openarchives.org/OAI/openarchivesprotocol.html).\
+*Note: The Directory of Open-Access Journals (DOAJ) is an independent database*
+
+
+* **[Google Scholar](https://scholar.google.com/)**\
+([Search instructions](https://support.google.com/websearch/answer/134479?hl=en))\
+  **Subjects**: multiple disciplines\
+  **Scope**: peer-reviewed papers, theses, preprints, abstracts, and technical reports\
+  **Downloading Results**: results can be downloaded or exported individually. To export individual entries in BibTex, EndNote, RefMan or RefWorks formats, go to [Settings](https://scholar.google.com/scholar_settings), click "Show links to import citations into", and select the file format. Additionally, results on each results page can be imported into [Zotero](https://www.zotero.org/) using [Zotero Connector](https://www.zotero.org/download/connectors).\
+  Note: Google works with publishers of scholarly information to index content to make it searchable
+
+
+* **[JSTOR](https://www.jstor.org/)**\
+  ([Search instructions](https://support.jstor.org/hc/en-us/articles/115004701828-Searching-A-Practical-Overview))\
+  **Subjects**: [multiple disciplines](https://www.jstor.org/subjects)\
+  **Scope**: 12 million academic journals articles, books, and primary sources\
+  **Downloading Results**: For dowloading all results, JSTOR uses [Constellate](https://constellate.org/) with csv and JSON filetypes available. Some features are subscription only.\
+
+* **[Open Grey](http://www.opengrey.eu/?lang=en)**\
+  ([Search Instructions](http://www.opengrey.eu/help))\
+  **Subjects**: multiple disciplines\
+  **Scope**: grey literature from Europe\
+  Note: This site will soon no longer be available, but the database and associated files have been archived at [DANS EASY](https://doi.org/10.17026/dans-xtf-47w5)\
+  **Downloading Results**:\
+
+* **[PLOS ONE](https://journals.plos.org/plosone/search)**\
+  **Subjects**: multiple disciplines, including ecology and plant science\
+  **Scope**: all PLOS journals, which are all open-access\
+  **Data manipulation**: a file containing all articles is [downloadable](https://plos.org/text-and-data-mining/)\
+  **Downloading Results**:\
+
+* **[ProQuest](https://www.proquest.com)**\
+([Search instructions](https://www.proquest.com/help/academic/webframe.html?Search_Tips.html#Search_Tips.html))\
+  **Subjects**: multiple disciplines\
+  **Scope**: 4336 books; 1269 scholarly journals; 57 wire feeds; 51 newspapers; 34 reports 25 dissertation and theses; 9 working papers; 6 conference papers and proceedings; 5 magazines; 4 blogs, podcasts and websites; 4 trade journals; 1 encyclopedias and reference workds; 1 historical periodical, 3 other sources\
+  Note: ProQuest partners with content holders and provides preservation and access to their information\
+  **Downloading Results**:\
+
+* **[PubAg](https://pubag.nal.usda.gov/)**\
+[Search instructions](https://pubag.nal.usda.gov/advanced)\
+**Scope**: a subset of only the peer-reviewed publications in AGRICOLA\
+**Subjects**: agriculture and associated disciplines, including: animal and veterinary sciences, entomology, plant sciences, forestry, aquaculture and fisheries, farming and farming systems, agricultural economics, extension and education, food and human nutrition, and earth and environmental sciences\
+Note: A database produced by the U.S. National Agricultural Library\
+**Downloading Results**:\
+
+* **[SAGE](https://journals.sagepub.com)**\
+[Search instructions](https://journals.sagepub.com/page/help/search/boolean)\
+**Scope**: 1000+ [(journals)](https://journals.sagepub.com/action/showPublications) as well as books\
+**Subjects**: health sciences, materials sciences & engineering, social sciences & humanities, life & biomedical sciences\
+**Downloading Results**:\
+
+#### Access through Université Mohammed VI Polytechnique (UM6P)
+
+UM6P subscribes to the following resources, available to faculty, staff, and students at [https://login.eressources.um6p.ma](https://login.eressources.um6p.ma). Links below are to publicly available information about each resource. Login to UM6P to use the subscription-only services.
+
+* **[CAIRN](https://www.cairn-int.info)**\
+The UM6P subscription provides full text access to articles\
+[Search instructions](https://aide.cairn.info/article/113-comment-optimiser-mes-recherches-sur-cairn-info)\
+**Scope**: francophone publications spanning 500 journals and 10000 eBooks [(collections)](https://www.cairn.info/listerev.php)\
+**Subjects**: social sciences and humanities\
+**Downloading Results**:\
+
+* **[Web of Knowledge](https://clarivate.com/webofsciencegroup/support/wos/)**\
+Produced by Clarivate, Web of Science is a container for several indexes. UM6P has paid for access to the following:
+
+  + **[Web of Science Core Collection](https://clarivate.com/webofsciencegroup/solutions/web-of-science-core-collection/)**\
+  [Search instructions](https://videos.webofsciencegroup.com/watch/NZ3QPKC4kxV41p6yoX2Wrh)\
+  **Subjects**: sciences, social sciences, arts and humanities.\
+  **Scope**: Scholarly journals, books, and proceedings ([serials indexed](https://mjl.clarivate.com/collection-list-downloads))\
+  **Downloading Results**:\
+  When you search the core collection, you will be searching across the following eight (8) databases:
+  
+     - [Science Citation Index Expanded (SCIE)](https://clarivate.com/webofsciencegroup/solutions/webofscience-scie/)\
+     **Subjects**: 178 scientific disciplines\
+     **Scope**: 9200+ journals\
+     **Years**: 1900-present
+     
+     - [Social Science Citation Index (SSCI)](https://clarivate.com/webofsciencegroup/solutions/webofscience-ssci/)\
+     **Subjects**: 58 social science disciplines\
+     **Scope**: 3500+ scientific and technical journals\
+     **Years**: 1900-present
+     
+     - [Arts & Humanities Citation Index](https://clarivate.com/webofsciencegroup/solutions/webofscience-arts-and-humanities-citation-index/)\
+     **Subjects**: 28 arts & humanities disciplines\
+     **Scope**: 1800+ journals\
+     **Years**: 1975-present
+     
+     - [Emerging Sources Citation Index](https://clarivate.com/webofsciencegroup/solutions/webofscience-esci/)\
+     **Subjects**: all disciplines\
+     **Scope**: 7800+ titles\
+     **Years**: 2005-present
+     
+     - [Conference Proceedings Citation Index](https://clarivate.com/webofsciencegroup/solutions/webofscience-cpci/)\
+     **Scope**: 205900+ proceedings\
+     **Years**: 1990-present
+     
+     - [Book Citation Index](https://clarivate.com/webofsciencegroup/solutions/webofscience-bkci/)\
+     **Subjects**: sciences, social sciences, and arts & humanities\
+     **Scope**: 116000+ books\
+     **Years**: 2005-present
+     
+     - Index Chemicus\
+     **Years**: 1993-present
+     
+     - Curent Chemical Reactions\
+     **Years**: 1985-prsent
+
+  + **[Derwent Innovations Index](https://clarivate.libguides.com/webofscienceplatform/dii)**\
+  [Search instructions](https://videos.webofsciencegroup.com/watch/NZ3QPKC4kxV41p6yoX2Wrh)\
+  **Subjects**: Patent and citation searches of inventions in chemical, electrical, electronic, and mechanical engineering\
+  **Scope**: 59 patent-issuing authorities worldwide\
+  **Years**: 1963-present\
+  **Downloading Results**:\
+  
+  + **[KCI Korean Journal Databse](https://clarivate.libguides.com/webofscienceplatform/kjd)**\
+  [Search instructions](https://videos.webofsciencegroup.com/watch/NZ3QPKC4kxV41p6yoX2Wrh)\
+  **Subjects**: arts & humanities, life sciences & biomedicine, physical sciences, social sciences, and technology\
+  **Scope**: 2500+ journals\
+  **Years**: 1980-present\
+  **Search languages**: English and Korean\
+  Note: Managed by the National Research Foundation of Korea and contains bibliographic information for scholarly literature published in Korea.\
+  **Downloading Results**:\
+
+  + **[Russian Science Citation Index](https://clarivate.libguides.com/webofscienceplatform/rsci)**\
+  [Search instructions](https://videos.webofsciencegroup.com/watch/NZ3QPKC4kxV41p6yoX2Wrh)\
+  **Scope**: [800 journals](https://elibrary.ru/projects/rsci/rsci.pdf)\
+  **Years**: 2005-present\
+  **Search languages**: English and Russian\
+  Note: Created in partnership with Russia’s Scientific Electronic Library\
+  **Downloading Results**:\
+  
+  + **[SciELO Citation Index](https://clarivate.libguides.com/webofscienceplatform/scielo)**\
+  [Search Instructions](https://videos.webofsciencegroup.com/watch/NZ3QPKC4kxV41p6yoX2Wrh)\
+  **Subjects**: agricultural sicneces, applied social sciences, biological sciences, engineering, earch sciences, health sciences, human sciences, linguistics & arts, mathematics, physics, social sciences\
+  **Scope**: 1200+ journals from 13 Latin countries\
+  **Years**: 2002-present\
+  **Search languages**: English and native language of a publication\
+  **Downloading Results**:\
+  
+* **[ProQuest](https://www.proquest.com)**\
+The UM6P subscription includes the following products:
+  + [Coronavirus Research Database](https://www-proquest-com/coronavirus)\
+  Curated informaiton about the coronavirus
+  
+  + [Ebook Central](https://about-proquest-com/en/products-services/ebooks-main/)\
+  A platform for uploading and accessing books for use in courses and as references
+  
+  + [ProQuest One Business](https://about.proquest.com/en/products-services/ProQuest-One-Business/)\
+  **Subjects**: business skills\
+  **Scope**: [10950 resources](https://about.proquest.com/globalassets/proquest/files/excel-files/titlelist-proquestonebusiness.xlsx)
+  
+  + [Publicly Available Content Database](https://about.proquest.com/en/products-services/Publicly-Available-Content-Database/)\
+  **Subjects**: multiple disciplines\
+  **Scope**: [4198 free resources](http://tls.search.proquest.com/titlelist/ListForward?productId=1009240&productName=Publicly+Available+Content+Database&format=html&IDString=1009240): journal articles, pre-prints, dissertations, conference papers and reports
+
+* **[EBSCOhost Research Databases](https://connect.ebsco.com/s/article/Advanced-Searching-on-EBSCOhost-Tutorial?language=en_US)**\
+Through UM6P, access is provided to the following:
+
+  + [ERIC](http://support.ebsco.com/help/index.php?help_id=DB:90)\
+  **Subjects**: education literature and research\
+  **Scope**: journal articles, research reports, curriculum and teaching guides, conference papers, dissertations and theses, and books\
+  **Years**: 1966-present
+
+  + [GreenFile](http://support.ebsco.com/help/index.php?help_id=DB:590)\
+  **Subjects**: human impact on the environment, including: global warming, green building, pollution, sustainable agriculture, renewable energy, and recycling\
+  **Scope**: scholarly, government and general-interest titles
+  
+  + [Library, Information Science & Technology Abstracts (LISTA)](http://support.ebsco.com/help/index.php?help_id=DB:604)\
+  **Subjects**: librarianship, classification, cataloging, bibliometrics, online information retrieval, information management \
+  **Scope**: 60 core journals, approximatelt 50 priority journals, 125 select journals, plus books, research reports and proceedings
+  
+  + [MEDLINE](http://support.ebsco.com/help/index.php?help_id=DB:66)\
+  **Subjects**: medicine, nursing, dentistry, veterinary medicine, health care system, pre-clinical sciences\
+  **Scope**: 5,600 biomedical journals
+  
+  + [eBook Collection](http://support.ebsco.com/help/index.php?help_id=5540)\
+  **Subjects**: multi-disciplinary\
+  **Scope**: 2.4 million eBooks, 300000+ of which are open access
+  
+* **[EBSCO Discovery Service](https://connect.ebsco.com/s/article/EBSCO-Discovery-Service-General-Search?language=en_US)**\
+Searches resources in the Mohammed VI Polytechnic University Virtual Library\
+
+* **[Scopus](https://www.elsevier.com/solutions/scopus?dgcid=RN_AGCM_Sourced_300005030)**\
+A citation database developed by Springer\
+  **Subjects**: multiple disciplines
+
+* **[BiblioAccess](https://www.biblioaccess.com)**\
+Access to the digital library of Mohammed VI Polytechnic University
+
+* **[ScienceDirect](https://www.sciencedirect.com/)**\
+  **Subjects**: physical sciences and engineering, life sciences, health sciences, social sciences and humanities\
+  **Scope**: 1.4 million articles and [1053 open access publications](https://www.sciencedirect.com/browse/journals-and-books?accessType=openAccess)\
+
+* **[SpringerLink](https://link.springer.com)**\
+ **Subjects**: multi-disciplinary\
+ **Scope**: millions of journals, books, series, protocols, reference works, and proceedings
+  
+
